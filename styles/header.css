@@ -1,0 +1,121 @@
+.header {
+  background-color: #171a21;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 47px;
+  z-index: 200px;
+  display: flex;
+  justify-content: end;
+  box-shadow: 0px 3px 10px rgba(0, 0, 255, 0.15);
+}
+
+.header-gif {
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+
+.home-link .home-gif {
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+  z-index: 100;
+  pointer-events: none;
+  white-space: nowrap;
+  transition: opacity 0.15s;
+}
+
+.home-link:hover .home-gif {
+  opacity: 1;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.introduction-link .introduction-gif {
+  position: absolute;
+  bottom: -50px;
+  left: 150px;
+  width: 50px;
+  height: 50px;
+  z-index: 100;
+  pointer-events: none;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.introduction-link:hover .introduction-gif {
+  opacity: 1;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.calculator-link .calculator-gif {
+  position: absolute;
+  bottom: -58px;
+  left: 325px;
+  width: 50px;
+  height: 50px;
+  z-index: 100;
+  pointer-events: none;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.calculator-link:hover .calculator-gif {
+  opacity: 1;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.about-link .about-gif {
+  position: absolute;
+  bottom: -50px;
+  left: 445px;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+  z-index: 100;
+  pointer-events: none;
+  white-space: nowrap;
+  transition: opacity 0.15s;
+}
+
+.about-link:hover .about-gif {
+  opacity: 1;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  flex: 1;
+}
+
+.header-gif a {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #b8b6b4;
+  padding: 15px 20px;
+  margin: 0;
+  width: 106px;
+  height: 48px;
+  transition: background-color 0.15s;
+}
+
+.navbar a:hover {
+  background-color: gray;
+}
+
+a:hover .gif {
+  opacity: 1;
+}

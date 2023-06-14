@@ -1,0 +1,44 @@
+.btnTop {
+  color: white;
+  background-color: #6f6f6f;
+  font-size: 14px;
+  margin: auto;
+  width: 50px;
+  height: 25px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.btp-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.back-to-top-icon {
+  position: absolute;
+  top: -13px;
+  right: -10px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.arrow {
+  width: 23px;
+  height: 23px;
+}

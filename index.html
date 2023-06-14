@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="Beginner Website, CSS Project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS PROJECT</title>
+    <!-- styles for different sections -->
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/Home.css" />
+    <link rel="stylesheet" href="styles/introduction.css" />
+    <link rel="stylesheet" href="styles/calculator.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/backtotop.css" />
+    <link rel="stylesheet" href="styles/fixed-name.css" />
+    <!-- Website icon -->
+    <link
+      rel="shortcut icon"
+      href="images/titlefavicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Back to top icon that use the script below -->
+    <div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <img
+          class="arrow"
+          src="images/arrrow-removebg-preview.png"
+          alt="Arrow"
+        />
+        <div class="back-to-top-icon">
+          <img class="btp-icon" src="images/titlefavicon.png" alt="Icon" />
+        </div>
+      </button>
+    </div>
+
+    <!-- Fixed tag on the left side -->
+    <div class="fixed-name"><a href="#about">by Russel M. Giducos</a></div>
+
+    <header class="header">
+      <div class="header-gif">
+        <nav class="navbar">
+          <div class="home-link">
+            <a href="#home">HOME</a>
+            <img
+              class="gif home-gif"
+              src="images/anime-anime-girl-dance.gif"
+              alt=""
+            />
+          </div>
+          <div class="introduction-link">
+            <a href="#introduction"
+              >INTRODUCTION TO CSS
+              <img class="introduction-gif" src="images/anime-girl.gif" alt=""
+            /></a>
+          </div>
+          <div class="calculator-link">
+            <a href="#calculator">CALCULATOR</a>
+            <img class="calculator-gif" src="images/panic-anime.gif" alt="" />
+          </div>
+          <div class="about-link">
+            <a href="#about">ABOUT</a>
+            <img class="about-gif" src="images/blush-anime.gif" alt="" />
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="title">
+          <h1>Information and Communication Technologies (ICT)</h1>
+        </div>
+        <div class="strand">Computer System Servicing NC II</div>
+      </section>
+
+      <section id="introduction">
+        <hr />
+        <div class="introduction-title">WHAT IS CSS?</div>
+        <div class="main-text">
+          <p>
+            The Computer Systems Servicing (CSS) strand is a specialized
+            vocational course that focuses on the technical aspects of computer
+            systems and their maintenance. This strand is designed to equip
+            students with the knowledge and skills needed to diagnose, repair,
+            and maintain computer hardware and software. Through a combination
+            of theoretical lessons and hands-on practical training, students
+            gain a deep understanding of computer systems and learn how to
+            troubleshoot various issues that may arise.
+          </p>
+          <p>
+            One of the key areas of focus in the CSS strand is computer
+            hardware. Students learn about the different components of a
+            computer system, such as the motherboard, CPU, memory, and storage
+            devices. They also learn how to assemble and disassemble computer
+            systems, install and configure hardware components, and diagnose and
+            resolve hardware-related problems. This knowledge is crucial in the
+            field of computer servicing, as hardware failures are common and
+            require technical expertise to fix.
+          </p>
+          <p>
+            In addition to hardware, the CSS strand also covers software-related
+            topics. Students learn about operating systems, software
+            installation, and configuration. They gain hands-on experience in
+            installing and configuring different operating systems, such as
+            Windows and Linux, and learn how to troubleshoot software-related
+            issues. This knowledge is essential for ensuring the smooth
+            operation of computer systems and optimizing their performance.
+          </p>
+          <p>
+            Another important aspect of the CSS strand is network
+            troubleshooting and maintenance. Students learn about computer
+            networks, including concepts such as IP addressing, subnetting, and
+            network protocols. They acquire skills in setting up and configuring
+            network devices, diagnosing network connectivity issues, and
+            implementing security measures. With the increasing reliance on
+            networked systems in today's world, these skills are highly valuable
+            and in demand.
+          </p>
+          <p>
+            The CSS strand also emphasizes the importance of professionalism and
+            customer service in the field of computer servicing. Students learn
+            about effective communication skills, problem-solving techniques,
+            and ethical practices. They understand the importance of providing
+            timely and efficient service to customers, and how to manage
+            customer expectations and handle challenging situations
+            professionally. These soft skills are essential for building a
+            successful career in computer systems servicing.
+          </p>
+          <p>
+            Throughout the course, students in the CSS strand engage in
+            practical exercises and projects to apply their knowledge and
+            skills. They work on real-world scenarios, troubleshooting common
+            computer issues, and maintaining computer systems in a simulated
+            environment. This hands-on approach allows them to develop their
+            problem-solving abilities and gain the confidence needed to tackle
+            complex computer servicing tasks.
+          </p>
+          <p>
+            Upon completion of the CSS strand, students have various career
+            options available to them. They can work as computer technicians,
+            providing technical support and maintenance services to individuals
+            and organizations. They can also pursue further education in the
+            field of computer science or information technology, specializing in
+            areas such as system administration, network engineering, or
+            cybersecurity. The skills and knowledge acquired in the CSS strand
+            provide a solid foundation for further career growth and
+            development.
+          </p>
+          <p>
+            In summary, the Computer Systems Servicing (CSS) strand is a
+            vocational course that equips students with the technical skills and
+            knowledge needed to diagnose, repair, and maintain computer systems.
+            From hardware troubleshooting to software installation and network
+            maintenance, students gain a comprehensive understanding of computer
+            servicing. Additionally, they develop important soft skills, such as
+            communication and problem-solving abilities, as well as
+            professionalism and customer service. With a hands-on approach and
+            practical exercises, students are prepared for various career
+            opportunities in the field of computer systems servicing or further
+            education in related disciplines
+          </p>
+        </div>
+      </section>
+      <section id="calculator">
+        <hr />
+        <div class="calculator-name">CALCULATOR</div>
+        <div class="calculator-main">
+          <form name="Calculator" class="calculator">
+            <table>
+              <tr>
+                <td>
+                  <input type="text" name="Input" size="35" id="display" />
+                  <br />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    type="button"
+                    name="one"
+                    value=" 1 "
+                    onclick="Calculator.Input.value += '1'"
+                  />
+                  <input
+                    type="button"
+                    name="two"
+                    value=" 2 "
+                    onclick="Calculator.Input.value += '2'"
+                  />
+                  <input
+                    type="button"
+                    name="three"
+                    value=" 3 "
+                    onclick="Calculator.Input.value += '3'"
+                  />
+                  <input
+                    type="button"
+                    name="add"
+                    class="btnTop"
+                    value=" + "
+                    onclick="Calculator.Input.value += ' + '"
+                  />
+                  <br />
+                  <input
+                    type="button"
+                    name="four"
+                    value=" 4 "
+                    onclick="Calculator.Input.value += '4'"
+                  />
+                  <input
+                    type="button"
+                    name="five"
+                    value=" 5 "
+                    onclick="Calculator.Input.value += '5'"
+                  />
+                  <input
+                    type="button"
+                    name="six"
+                    value=" 6 "
+                    onclick="Calculator.Input.value += '6'"
+                  />
+                  <input
+                    type="button"
+                    name="minus"
+                    value=" - "
+                    onclick="Calculator.Input.value += ' - '"
+                  />
+                  <br />
+                  <input
+                    type="button"
+                    name="seven"
+                    value=" 7 "
+                    onclick="Calculator.Input.value += '7'"
+                  />
+                  <input
+                    type="button"
+                    name="eight"
+                    value=" 8 "
+                    onclick="Calculator.Input.value += '8'"
+                  />
+                  <input
+                    type="button"
+                    name="nine"
+                    value=" 9 "
+                    onclick="Calculator.Input.value += '9'"
+                  />
+                  <input
+                    type="button"
+                    name="mul"
+                    value=" * "
+                    onclick="Calculator.Input.value += ' * '"
+                  />
+                  <br />
+                  <input
+                    type="button"
+                    name="clear"
+                    value=" c "
+                    onclick="Calculator.Input.value = ''"
+                  />
+                  <input
+                    type="button"
+                    name="zero"
+                    value=" 0 "
+                    onclick="Calculator.Input.value += '0'"
+                  />
+                  <input
+                    type="button"
+                    name="DoIt"
+                    value=" = "
+                    onclick="Calculator.Input.value = eval(Calculator.Input.value)"
+                  />
+                  <input
+                    type="button"
+                    name="div"
+                    value=" / "
+                    onclick="Calculator.Input.value += ' / '"
+                  />
+                  <br />
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </section>
+      <section id="about">
+        <hr />
+        <div class="about-first">
+          <div class="about-picture">
+            <img class="profile-pic" src="images/profile.png" alt="" />
+            <div class="name-intro">RUSSEL M. GIDUCOS</div>
+            <p class="profile-info">(The creator of this page)</p>
+          </div>
+          <div class="about-more">MORE ABOUT ME</div>
+        </div>
+        <div class="about-second">
+          <div class="first-grid">
+            <div class="column">
+              <h3>EDUCATION</h3>
+              <p class="senior-high-school-school">Senior High School</p>
+              <p>&#183; Polomolok National High School</p>
+              <p>
+                Prk. Madasigon, Octavio Village, Brgy. Cannery Site, Polomolok,
+                South Cotabato
+              </p>
+              <p class="year">2021-2023</p>
+              <p class="junior-high-school-school">Junior High School</p>
+              <p>&#183; Polomolok National High School</p>
+              <p>
+                Prk. Madasigon, Octavio Village, Brgy. Cannery Site, Polomolok,
+                South Cotabato
+              </p>
+              <p class="year">2018-2021</p>
+              <p>&#183; Poblacion Polomolok National High School</p>
+              <p>Yungco Subdivision, Polomolok, South Cotabato</p>
+              <p>2017-2018</p>
+              <p class="elementary-school">Elementary</p>
+              <p>&#183; Power Purple Children's School</p>
+              <p>Tuazon Subdivision, Polomolok, South Cotabato</p>
+              <p>2015-2017</p>
+            </div>
+          </div>
+          <div class="second-grid">
+            <div>
+              <h3>SKILLS</h3>
+              <p class="skills">&#183; Communication Skills</p>
+              <p class="skills">&#183; Troubleshooting Skills</p>
+              <p class="skills">&#183; Team Player</p>
+              <p class="skills">&#183; Basic Computer Troubleshooting</p>
+              <p class="skills">&#183; Decision Making</p>
+            </div>
+          </div>
+          <div class="third-grid">
+            <h3>WORK EXPERIENCE</h3>
+            <p>&#183; Barangay Local Government Unit</p>
+            <p>Octavio Village, Cannery Site, Polomolok, South Cotabato</p>
+            <p>Certificate Encoder</p>
+            <p>May 22,2023 - June 2,2023</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

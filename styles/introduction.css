@@ -1,0 +1,23 @@
+#introduction {
+  padding-top: 45px;
+}
+
+.introduction-title {
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 15px;
+  color: #66c0f4;
+}
+
+.main-text {
+  text-align: justify;
+  text-indent: 15px;
+  padding: 5px 15px;
+  color: rgb(211, 197, 197);
+}
+
+.main-text p {
+  font-size: 18px;
+  line-height: 26px;
+}

@@ -1,0 +1,16 @@
+html {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+body {
+  font-family: sans-serif;
+  padding-top: 60px;
+  font-weight: 300px;
+  color: white;
+  background-color: #1b2838;
+}
+
+hr {
+  width: 100%;
+}
